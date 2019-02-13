@@ -1,4 +1,4 @@
-#!/bin/bash
+
 echo "Provisioning virtual machine..."
 
 echo "Updating apt and its sources"
