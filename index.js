@@ -1,10 +1,3 @@
-/**
- * Simple example Node.js application to demonstrate face detection.
- */
-
-/**
- * Define the dependencies 
- */
 var express 	=   require( 'express' )  
 	, http 			=		require( 'http' )
 	, async 		=		require( 'async' )
@@ -15,28 +8,19 @@ var express 	=   require( 'express' )
 	, _ 				=		require( 'lodash' )
 	, cv 				= 	require( 'opencv' );
 
-/**
- * Create a simple hash of MIME types to file extensions
- */
 var exts = {
 	'image/jpeg' 	: 	'.jpg',
 	'image/png'		: 	'.png',
 	'image/gif'		: 	'.gif'
 }
 
-/**
- * Note that you may want to change this, depending on your setup.
- */
+
 var port = 8080;
 
-/**
- * Create the express app
- */
+
 var app = express();
 
-/**
- * Set up the public directory
- */
+
 app.use(express.static(__dirname + '/public'))
 
 /**
