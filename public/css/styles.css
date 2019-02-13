@@ -10,7 +10,7 @@
   display: block;
   position: absolute;
   border: solid 2px #fff;
-  border-radius: 50%;
+  border-radius: 40%;
 }
 
 .frame a:hover {
